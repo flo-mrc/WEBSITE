@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="CSS/formulaire.css" />
+    <link rel="stylesheet" href="CSS/Global.css" />
 </head>
 
 <body>
-        <h1>CameraWorld</h1>
-        <h3>Bouger mais rester connecté</h3>
+    <h1 class="tlt">CameraWorld</h1>
+    <h3 class="tlt2">Bouger mais rester connecté</h3>
 
     <div class="dropdown">
 
@@ -16,7 +17,7 @@
               <a href="Connexion.html">Connexion</a>
               <a href="Contact.html">Contact</a>
               
-    <form action="./Donnees.html" method="Post">
+    <form action="./inscription.php" method="post">
         <table>
                 <caption>Formulaire d'inscription</caption> 
             <tr>
@@ -24,7 +25,7 @@
                     <label for="nom">Nom :</label>
                 </td>
                 <td>
-                    <input type="text" id="nom" />
+                    <input type="text" id="nom" name="nom" />
                 </td>
             </tr>
             <tr>
@@ -32,7 +33,7 @@
                     <label for="prenom">Prenom :</label>
                 </td>
                 <td>
-                    <input type="text" id="prenom" />
+                    <input type="text" id="prenom" name="prenom"/>
                 </td>
             </tr>
             <tr>
@@ -40,31 +41,24 @@
                     <label for="couriel">Couriel :</label>
                 </td>
                 <td>
-                    <input type="email" id="couriel" /> </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="tel">Telephone :</label>
-                </td>
-                <td>
-                    <input type="tel" id="tel" />
+                    <input type="email" id="couriel" name="couriel" /> 
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <label for="ID">Identifiant :</label>
+                    <label for="identifiant">Identifiant :</label>
                 </td>
                 <td>
-                    <input type="text" id="ID"></input>
+                    <input type="text" id="identifiant" name="identifiant"></input>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="password">mot de passe :</label>
+                    <label for="motdepasse">mot de passe :</label>
                 </td>
                 <td>
-                    <input type="password" id="password" ></input>
+                    <input type="password" id="motdepasse" name="motdepasse"></input>
                 </td>
             </tr>
             <tr>

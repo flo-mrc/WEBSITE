@@ -1,8 +1,9 @@
 body{
-    background-image: url("../Image/fond-ecran-ciel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+        background-color: rgb(151, 151, 245);
+        background-repeat: no-repeat;
+        background-size: 100px 100px;
+    }
+
 
     .tlt {
         position:relative;
