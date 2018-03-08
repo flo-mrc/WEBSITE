@@ -10,7 +10,7 @@ $prix_article = isset($_GET['prix_article']) ? $_GET['prix_article'] : '?';
 $qte_article  = isset($_GET['qte_article'])  ? $_GET['qte_article']  : 1;
 
 // Voici les traitements du panier
-if ($id_article == null) echo 'Veuillez sélectionner un article pour le mettre dans le panier!'; // Message si pas d'acticle sélectionné
+if ($id_article == null) echo 'Veuillez sélectionner un article pour le mettre dans le panier!'; // Message si pas d'acticle sélectionné voila
 else
 if (isset($_GET['ajouter'])){ // Ajouter un nouvel article
   $_SESSION['panier'][$id_article]['nom']  = $nom_article;
